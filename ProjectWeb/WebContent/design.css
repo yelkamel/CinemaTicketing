@@ -1,0 +1,1202 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+	background-color: #EEEEEE;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    width: 100%;
+    margin: 0;
+}
+
+html
+{
+	padding: 0;
+	margin: 0;
+}
+
+#en_tete
+{
+	padding-bottom: 25px;
+	margin: 0px;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #353535;
+}
+
+#en_tete a
+{
+    color: white;
+	font-family: times;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#en_tete a:hover
+{
+	color: white;
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+#corps
+{
+	margin: auto;
+	width: 100%;
+	background-color: #EEEEEE;
+}
+
+#bas
+{
+	margin: auto;
+	padding-left: 15px;
+	width: 950px;
+	background-color: #FFFFFF;
+}
+
+#bloc_page
+{
+    width: 965px;
+    margin: auto;
+}
+
+#menu
+{
+	width: 100%;
+	height: 50px;	
+	background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+#menu input
+{
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+#menu ul
+{
+ 	padding:0;
+ 	margin:0;
+ 	list-style-type:none;
+}
+
+#menu li
+{
+ 	float:left;
+ 	border-left:0px;
+	padding:0;
+	margin:0;
+}
+
+#menu a
+{
+	text-transform: uppercase;
+}
+
+.films a
+{
+	text-transform: uppercase;
+}
+
+#menu ul li a
+{	
+	 display:block;
+	 width: 150px;
+	 line-height:50px;
+	 color:white;
+	 font-weight: bold;
+	 text-align:center;
+	 font-family: times;*/
+}
+ 
+#menu ul li:hover
+{
+ 	background-color: #CE070A;
+ 	color:white;
+ 	text-decoration: underline;
+ 	font-weight: bold;
+}
+
+#contenu
+{
+	width: 950px;
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-top: auto;
+}
+
+#seance
+{
+	width: 965px;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-top: auto;
+}
+
+.films:hover
+{
+	background-color: #CE070A;
+}
+
+.films
+{
+	font-family: times;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.films a
+{
+	font-family: times;
+}
+
+.films a:hover
+{
+	color: white;
+	border-bottom: none;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#corps ul
+{
+ 	list-style-type:none;
+}
+
+#corps li
+{
+ 	text-align: center;
+ 	border-left:0px;
+ 	background-color: white;
+ 	width: 250px;
+ 	height: 40px;
+ 	margin-bottom: 30px;
+ 	padding-left: 10px;
+ 	color: black;
+}
+
+#corps ul li a
+{	
+	 display: block;
+	 line-height: 40px;
+	 font-weight: bold;
+	 text-align:left;
+	 font-family: times;
+ }
+ 
+#corps ul li:hover
+{
+ background-color: #CE070A;
+ text-decoration: underline;
+ font-weight: bold;
+}
+
+#corps ul li a:hover
+{
+ 	color: white;
+}
+
+#index a
+{
+	font-family: times;
+	font-weight: bold;
+	text-decoration: none;
+	color: #7C7D7D;
+	font-size: 15px;
+}
+
+#index a:hover
+{
+	font-family: times;
+	text-decoration: underline;
+	border-bottom: none;
+	color: #7C7D7D;
+}
+
+#lien
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 40px;
+	font-family: times;
+	font-weight: bold;
+	text-decoration: none;
+	color: #7C7D7D;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#lien p
+{
+	padding-top: 8px;
+	padding-left: 15px;
+}
+
+#lien a
+{
+	font-family: times;
+	text-decoration: none;
+	color: #7C7D7D;
+}
+
+#lien a:hover
+{
+	font-family: times;
+	text-decoration: underline;
+	border-bottom: none;
+	color: #7C7D7D;
+}
+
+footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+article h1
+{
+	font-family: Dayrom, serif;
+	font-size: 3.0em;
+	color: #181818;
+	font-weight: normal;
+}
+
+/* Header */
+
+header
+{
+    
+}
+
+#titre_principal, #titre_secondaire
+{
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+#titre_secondaire
+{
+	margin-left: 370px;
+}
+
+header h1
+{
+    font-family: 'Dayrom', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    font-family: BallparkWeiner, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav
+{
+	font-size: 1.1em;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: white;
+    text-decoration: underline;
+    background-color: #CE070A;
+}
+
+/* BanniÃ¨re */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/sanfrancisco.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+/* Corps */
+
+aside img
+{
+    margin-right: 5px;
+}
+
+h3
+{
+	font-family: Dayrom, serif;
+    font-size: 1.1em;
+	width: 100%;
+	height: 30px;
+    padding-top: 5px;
+	margin-bottom: 0px;
+    font-weight: normal;
+	color: white;
+	background-color: #7C7D7D;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    text-align: center;
+}
+
+article, aside, #menu
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+    width: 100%;
+    margin-right: 15px;
+	font-family: times;
+}
+
+article p
+{
+    font-size: 0.9em;
+}
+
+/* Classes */
+
+.lc
+{
+	font-size:11px;
+}
+
+.table
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border-color: gray;
+	display: table;		
+}
+
+.celluleh
+{
+	text-align: left;
+	background-color: #f3f3f3;
+	padding: 5px 10px;
+	border-bottom: 1px solid #E2CCC9;
+	border-top: 1px solid #E2CCC9;
+}
+
+.celluled
+{
+	text-align: left;
+	padding: 5px 10px;
+	border-bottom: 1px solid #E2CCC9;
+	border-top: 1px solid #E2CCC9;
+}
+
+.modif
+{
+	margin-left: 25px;
+}
+.connect
+{
+	margin-left: 17px;
+	font-family: times;
+	color: blue;
+}
+
+.text
+{
+	margin-left: 0px;
+}
+
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #333;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+	}
+
+.taille
+{
+	font-family: times;
+	font-size: 0.8em;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.profile
+{
+	margin-top: 0px;
+}
+
+.profile a, .photos a
+{
+	font-family: times;
+	color: blue;
+}
+
+.profile a:hover, .photos a:hover
+{
+	color: orange;
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+.prof
+{
+	margin-top: 0px;
+	margin-left: 200px;
+}
+
+.prof a
+{
+	font-family: times;
+	color: blue;
+}
+
+.prof a:hover
+{
+	color: orange;
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+.lien
+{
+	text-align: center;
+}
+
+.epbomi
+{
+	font-size: 1.15em;
+}
+
+.image
+{
+	margin-left: 0px;
+}
+
+.images
+{
+	margin-left: 290px;
+}
+
+.action a
+{
+    color: #7C7D7D;
+}
+
+.action a:hover
+{
+	color: #7C7D7D;
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+#client
+{
+	float: right;
+	text-align: right;
+	font-family: times;
+	font-size: 18px;
+	display: inline-block;
+	color: white;
+	padding-top: 20px;
+	margin: auto;
+	width: 250px;
+}
+
+#panier
+{
+	float: right;
+	padding-top: 10px;
+	color: white;
+}
+
+#article
+{
+	float: right;
+	padding-top: 20px;
+	color: white;
+	margin-left: 2px;
+}
+
+#article a
+{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#article a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+#menu2, #menu2 ul /* Liste */     
+{
+        padding : 0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */       
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu2 /* Ensemble du menu */
+{
+        font-weight : bold; /* on met le texte en gras */
+        font-size : 22px; /* hauteur du texte : 12 pixels */
+}
+
+#menu2 a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        margin: 0;
+        color : white; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 150px; /* largeur */
+        height: 50px;
+}
+
+#menu2 li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 150px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+
+#menu2 li ul li /* Éléments de sous-listes */
+{
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-bottom : 1px solid #FFFFFF; /* on met une bordure blanche en bas de chaque élément d'une sous liste */
+        border-top : 1px solid #FFFFFF; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+        background-color: #000000;
+}
+
+#menu2 a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        text-decoration: underline;
+        background-color: #CE070A;
+}
+
+#menu2 li:hover ul ul, #menu2 li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+{
+        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu2 li:hover ul, #menu2 li li:hover ul, #menu2 li.sfhover ul, #menu2 li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+.liens:hover
+{
+	background-color: #CE070A;
+}
+
+.liens
+{
+	font-family: times;
+	font-size: 22px;
+	/*display: inline-block;*/
+	height: 50px;
+}
+
+.liens a
+{
+    color: white;
+	font-family: times;
+}
+
+.liens a:hover
+{
+	color: white;
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+.forum
+{
+	font-family: times;
+	font-size: 18px;
+}
+
+.recherche a
+{
+	font-family: times;
+	text-decoration: none;
+	color: #7C7D7D;
+}
+
+.recherche a:hover
+{
+	border-bottom: none;
+	text-decoration: underline;
+	border-bottom: none;
+	color: #7C7D7D;
+}
+
+.forum a
+{
+    color: #7C7D7D;
+	font-family: times;
+}
+
+.forum a:hover
+{
+	color: #7C7D7D;
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+.titre
+{
+	font-family: times;
+}
+
+.titre a
+{
+	font-family: times;
+	color: #7C7D7D;
+}
+
+.titre a:hover
+{
+	color: #7C7D7D;
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+.link {
+color: #0000CC;
+A{color: #0000CC; text-decoration : none};
+A:hover {color: #0000CC; text-decoration : underline};
+}
+
+.bouton {
+background-color:#8AA6B7;
+border-width:1px;
+border-color:silver;
+font-size: 15px;
+}
+
+.view
+{
+	width: 600px;
+}
+
+.commentaire
+{
+	text-align: left;
+	border:1px solid #B0C4DE;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background-color:#E4EFFF;
+	padding: 5px;
+}
+
+
+.sujet
+{
+	margin-left: 290px;
+}
+
+.news
+{
+    text-align: center;
+}
+
+.new
+{
+	margin-left: 280px;
+}
+
+.new a
+{
+	font-family: times;
+	color: blue;
+}
+
+.publication a
+{
+	color: #77B5F9;
+}
+
+.new a:hover
+{
+	color: orange;
+	text-decoration: underline;
+	border-bottom: none;
+}
+
+.publication
+{
+    margin-left: 230px;
+}
+
+.input
+{
+	margin-left: 350px;
+}
+
+.identification
+{
+	margin-left: 375px;
+	color: red;
+}
+
+.inscription
+{
+	margin-left: 325px;
+}
+
+.oublie
+{
+	margin-left: 305px;
+}
+
+.password
+{
+	margin-left: 265px;
+}
+
+.area
+{
+	margin-left: 150px;
+}
+
+.publier
+{
+	margin-left: 410px;
+}
+
+.modification
+{
+	margin-left: 47px;
+}
+
+.modifier
+{
+	margin-left: 330px;
+}
+
+.comment
+{
+	margin-left: 175px;
+}
+
+.commenter
+{
+	margin-left: 330px;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* id */
+
+#chretien
+{
+	font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+	color: red;
+	background-color: #77B5F9;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+}
+
+#profile
+{
+	width: 730px;
+	font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+	color: red;
+	background-color: #77B5F9;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+}
+
+#profil
+{
+	float: left;
+	width: 120px;
+	height: 580px;
+	margin-top: 0px;
+	background: url('images/fond_degraderouge.png') repeat-y right;
+}
+
+#epbomi
+{
+	float: left;
+	width: 120px;
+	height: 1150px;
+	margin-top: 0px;
+	background: url('images/fond_degraderouge.png') repeat-y right;
+}
+
+#photos
+{
+	float: left;
+	width: 70px;
+	height: 200px;
+	margin-top: 0px;
+	background: url('images/fond_degraderouge.png') repeat-y right;
+}
+
+#texte
+{
+	width: 600px;
+	margin-left: 130px;
+	text-align: justify;
+}
+
+#prof
+{
+	width: 600px;
+	margin-left: 130px;
+	text-align: justify;
+}
+
+#texte_photos
+{
+	width: 600px;
+	margin-left: 90px;
+	text-align: justify;
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#photo_zozor
+{
+    text-align: center;
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+}
+
+/* Footer */
+
+footer
+{
+    background:  url('images/ico_top.png') no-repeat top center, repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+div ul
+{
+    list-style-type: none;
+}
+
+div li
+{
+    /*display: inline-block;*/
+    margin-right: 15px;
+}
+
+div a
+{
+	font-family: Dayrom, serif;
+    font-weight: normal;
+	font-size: 0.7em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+div a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#contact, #partage, #droits
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contact
+{
+    width: 28%;
+}
+
+#partage
+{
+    width: 35%;
+}
+
+#partage a:hover
+{
+	border-bottom: none;
+}
+
+#droits
+{
+    width: 31%;
+}
+
+#partage img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#droits ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#droits a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+#dewbody {
+	font-family:"Myriad","Myriad Pro",Georgia,Helvetica,Sans-serif;
+	height:100%;
+	padding:0 0 5em 0;
+	margin:0;
+	background:#eee;
+}
+
+#dewbody #content {
+	width:50%;
+	margin:auto;
+}
+
+#dewbody #players {
+	background:#fff;
+	overflow:auto;
+}
+
+#dewbody #players object {
+	margin:20px 0 20px 50px;
+}
+
+#dewbody h1 {
+	color:#456;
+	margin-top:2em;
+	padding:0 0 20px 10px;
+	font-weight:normal;
+	border-bottom:1px solid #ddd;
+}
+
+#dewbody h2 {
+	font-weight:normal;
+	background:#eee;
+	padding:2em 10px 10px 10px;
+	color:#444;
+	font-size:130%;
+	text-align:left;
+	margin:0;
+}
+
+#dewbody p {
+	margin:10px;
+	padding-bottom:10px;
+}
+
+#dewbody .hint {
+	color:#666;
+	float:right;
+	width:300px;
+	text-align:left;
+	margin-right:10px;
+	background:#f6f6e0;
+	padding:10px;
+	clear:both;
+}
+
+#dewbody a {
+	text-decoration:none;
+	color:#369;
+}
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie #titre_principal, .old_ie #logo, .old_ie header h1, .old_ie nav, .old_ie nav li, .old_ie .bouton_rouge, .old_ie article, .old_ie aside, .old_ie #tweet, .old_ie #mes_photos, .old_ie #mes_amis, .old_ie #mes_amis ul
+{
+    display: inline;
+    zoom: 1;
+}
+
+/* Quelques ajustements pour les vieilles versions d'IE */
+
+.old_ie section h1, .ie8 section h1
+{
+    font-size: 1.1em;
+}
+
+.old_ie footer div, .ie8 footer div
+{
+    margin-top: 30px;
+    background: url('images/separateur.png') repeat-x top;
+}
