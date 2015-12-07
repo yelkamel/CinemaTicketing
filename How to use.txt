@@ -1,0 +1,22 @@
+/*
+*** Mode d'emploi
+*/
+
+Dans le but de pouvoir utiliser notre application, il vous faut créer une base de données. Le script de création automatique n'ayant pas pu être généré,
+il va falloir le faire manuellement.
+Dans Eclipse, sous l'onglet Data Source Explorer, faire un clic droit sur Database Connections puis cliquer sur New.
+Dans la liste appraissant choisir Derby et entrer comme nom Cinema puis faire Next.
+Choisissez ensuite l'emplacement de la base de données puis saisir comme nom d'utilisateur et mot de passe cinema.
+Copier l'url de la base de données et cliquer sur Finish.
+
+Ouvrir ensuite le fichier derby-ds.xml et remplacer l'url qui se trouve entre les balise connection-url par celle que vous venez de copier et sauvegarder.
+
+Ouvrir ensuite le fichier sql et copier tous les scripts. Dans Data Source explorer faire un clic droit sur Cinema puis cliquer sur  Connect. Effectuer la même
+opération à nouveau puis cliquer sur Open SQL Scrapbook. A l'intérieur de celui-ci, coller les scripts copiés et les exécuter en ayant au préalable sélectionné
+la base donnée qui vient d'être créée.
+
+Déconneceter ensuite la base de données et démarrer JBOSS si celui est créé. Sinon le créer en procédant comme suit:
+ - dans l'onglet server, faire un clic droit puis cliquer sur New et ensuite Server.
+ - choisir JBOSS 5.0 puis cliquer sur Finish.
+ 
+ Vous pouvez maintenant exécuter l'application en important le fichier ear dans Eclipse.
